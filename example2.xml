@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+     <text>Prova XX/Questoes BB</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+<!-- question: 64416  -->
+  <question type="cloze">
+    <name>    
+    <text>Questão de teste 2 V.1</text>
+    </name>
+    <questiontext format="html">
+    <text><![CDATA[<p>Conhecemos estes pontos da curva da função \(f\):<br></p><p></p><p>\(\begin{array}{cc}x & f(x)\\\hline1,41658 & 1,97443 \\1,6762  & 2,40622 \\2,98006 & 5,27052 \\4       & 8,10226 \\5,01994 & 11,34185 \\6,3238  & 15,99721 \\6,58342 & 16,98726\end{array}\)<br></p><p></p><p>A quadratura de Gauss-Legendre com três pontos fornece qual aproximação de \(\int_1^7 f\)? <i>Usar 5 casas</i> <i> decimais.</i><br></p><p></p><p> {1:NUMERICAL:%100%52.27869:0.0005~%-1%52.51869:0.0005~%-1%52.75869:0.0005~%-1%52.99869:0.0005~%-1%53.23869:0.0005} <br></p><p></p><p><b>Dica para</b>  <b> verificação:</b> o resultado está entre 52 e 54. <b><i>Testando itálico e negrito juntos.</i></b><br></p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>    
+    
+
+<!-- question: 64426  -->
+  <question type="cloze">
+    <name>    
+    <text>Questão de teste 2 V.2</text>
+    </name>
+    <questiontext format="html">
+    <text><![CDATA[<p>Conhecemos estes pontos da curva da função \(f\):<br></p><p></p><p>\(\begin{array}{cc}x & f(x)\\\hline1,41658 & 1,9886 \\1,6762  & 2,42299 \\2,98006 & 5,30033 \\4       & 8,14226 \\5,01994 & 11,39205 \\6,3238  & 16,06045 \\6,58342 & 17,0531\end{array}\)<br></p><p></p><p>A quadratura de Gauss-Legendre com três pontos fornece qual aproximação de \(\int_1^7 f\)? <i>Usar 5 casas</i> <i> decimais.</i><br></p><p></p><p> {1:NUMERICAL:%100%52.51869:0.0005~%-1%52.27869:0.0005~%-1%52.75869:0.0005~%-1%52.99869:0.0005~%-1%53.23869:0.0005} <br></p><p></p><p><b>Dica para</b>  <b> verificação:</b> o resultado está entre 52 e 54. <b><i>Testando itálico e negrito juntos.</i></b><br></p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>    
+    
+
+<!-- question: 64436  -->
+  <question type="cloze">
+    <name>    
+    <text>Questão de teste 2 V.3</text>
+    </name>
+    <questiontext format="html">
+    <text><![CDATA[<p>Conhecemos estes pontos da curva da função \(f\):<br></p><p></p><p>\(\begin{array}{cc}x & f(x)\\\hline1,41658 & 2,00277 \\1,6762  & 2,43975 \\2,98006 & 5,33013 \\4       & 8,18226 \\5,01994 & 11,44225 \\6,3238  & 16,12369 \\6,58342 & 17,11893\end{array}\)<br></p><p></p><p>A quadratura de Gauss-Legendre com três pontos fornece qual aproximação de \(\int_1^7 f\)? <i>Usar 5 casas</i> <i> decimais.</i><br></p><p></p><p> {1:NUMERICAL:%100%52.75869:0.0005~%-1%52.27869:0.0005~%-1%52.51869:0.0005~%-1%52.99869:0.0005~%-1%53.23869:0.0005} <br></p><p></p><p><b>Dica para</b>  <b> verificação:</b> o resultado está entre 52 e 54. <b><i>Testando itálico e negrito juntos.</i></b><br></p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>    
+    
+
+<!-- question: 64446  -->
+  <question type="cloze">
+    <name>    
+    <text>Questão de teste 2 V.4</text>
+    </name>
+    <questiontext format="html">
+    <text><![CDATA[<p>Conhecemos estes pontos da curva da função \(f\):<br></p><p></p><p>\(\begin{array}{cc}x & f(x)\\\hline1,41658 & 2,01693 \\1,6762  & 2,45651 \\2,98006 & 5,35993 \\4       & 8,22226 \\5,01994 & 11,49245 \\6,3238  & 16,18693 \\6,58342 & 17,18477\end{array}\)<br></p><p></p><p>A quadratura de Gauss-Legendre com três pontos fornece qual aproximação de \(\int_1^7 f\)? <i>Usar 5 casas</i> <i> decimais.</i><br></p><p></p><p> {1:NUMERICAL:%100%52.99869:0.0005~%-1%52.27869:0.0005~%-1%52.51869:0.0005~%-1%52.75869:0.0005~%-1%53.23869:0.0005} <br></p><p></p><p><b>Dica para</b>  <b> verificação:</b> o resultado está entre 52 e 54. <b><i>Testando itálico e negrito juntos.</i></b><br></p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>    
+    
+
+<!-- question: 64456  -->
+  <question type="cloze">
+    <name>    
+    <text>Questão de teste 2 V.5</text>
+    </name>
+    <questiontext format="html">
+    <text><![CDATA[<p>Conhecemos estes pontos da curva da função \(f\):<br></p><p></p><p>\(\begin{array}{cc}x & f(x)\\\hline1,41658 & 2,0311 \\1,6762  & 2,47327 \\2,98006 & 5,38973 \\4       & 8,26226 \\5,01994 & 11,54265 \\6,3238  & 16,25017 \\6,58342 & 17,2506\end{array}\)<br></p><p></p><p>A quadratura de Gauss-Legendre com três pontos fornece qual aproximação de \(\int_1^7 f\)? <i>Usar 5 casas</i> <i> decimais.</i><br></p><p></p><p> {1:NUMERICAL:%100%53.23869:0.0005~%-1%52.27869:0.0005~%-1%52.51869:0.0005~%-1%52.75869:0.0005~%-1%52.99869:0.0005} <br></p><p></p><p><b>Dica para</b>  <b> verificação:</b> o resultado está entre 52 e 54. <b><i>Testando itálico e negrito juntos.</i></b><br></p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>    
+    
+</quiz>
