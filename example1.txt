@@ -1,0 +1,72 @@
+# Lines starting with # are comments and are ignored
+#
+# --------------------------------------------------------------------------
+# A category must be defined. Multiple nested categories can be defined with
+# "/", like ProvaX/QuestoesA
+#
+# QuestionName is also mandatory.
+# --------------------------------------------------------------------------
+#
+# --------------------------------------------------------------------------
+# In the question text, @ is considered a numerical parameter and * a numerical
+# question. Make sure that in the Variants part below there are, in each line,
+# the same number of numerical paramters and questions as defined in the
+# question text.
+#
+# If you want to change the identifier for parameters and questions, go to 
+# the beginning of the python file and change it there.
+# --------------------------------------------------------------------------
+#
+# --------------------------------------------------------------------------
+# OptionWeights allows the user to assign different weights to different parts
+# of the question. It is optional and if not defined then all parts are
+# weighted equally.
+# --------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------
+# The VariantPenalty is a percentage lost if the student gives the right answer 
+# to a different variant. If VariantPenalty is zero, then no penalty is given. 
+# If it is 200, then the student gets -200% of the question value. VariantPenalty
+# is optional and if not provided no penalty is assumed.
+# --------------------------------------------------------------------------
+#
+# --------------------------------------------------------------------------
+# Parameter Tolerance is optional. If not defined then the tolerance depends
+# on how many decimal places are defined in the question answer. If the answer
+# is 1, tolerance is 0. If the answer is 1,0 or 1.0, tolerance is 0.1. If the
+# answer is 1,0000 or 1.0000, tolerance is 0.0001 and it goes on.
+#   
+#   If Tolerance is defined, it overrides the logic above.
+#   If a single value of Tolerance is defined, the same tolerance is applied to 
+#     all questions (in case of multiple questions)
+#   Otherwise the number of tolerances defined must be equal to the number of
+#   questions
+# --------------------------------------------------------------------------
+
+CategoryName     Prova XX/Questoes AA
+QuestionName     Questão de teste
+QuestionWeights  1 1 2
+VariantPenalty   200
+Tolerance        0.001 0.001 0.001
+
+QuestionText
+
+Considere a função $f(x) = @x^2 - 6x + 3$. Responda as questões a seguir.
+
+Qual é o valor do discriminante na fórmula de Bhaskara, $b^2 - 4ac$? *
+
+Qual é a menor raiz da equação? *
+
+Qual é a maior raiz da equação? *
+
+Resolva com três casas decimais. Se errar perde R\$10. Dica: a maior raiz está entre @ e @.
+
+EndQuestionText
+
+Variants
+1,0 24 0,551 5,449 4 6
+1,5 18 0,586 3,414 3 5
+2,0 12 0,634 2,366 2 4
+2,5  6 0,710 1,690 1 3
+3,0  0 1,000 1,000 0 2
+EndVariants

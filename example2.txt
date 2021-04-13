@@ -1,0 +1,35 @@
+CategoryName     Prova XX/Questoes BB
+QuestionName     Questão de teste 2
+VariantPenalty   1
+Tolerance        0.0005
+
+QuestionText
+
+Conhecemos estes pontos da curva da função $f$:
+
+$\begin{array}{cc}x & f(x)\\ 
+\hline 
+1,41658 & @ \\ 
+1,6762  & @ \\ 
+2,98006 & @ \\ 
+4       & @ \\ 
+5,01994 & @ \\ 
+6,3238  & @ \\ 
+6,58342 & @
+\end{array}$
+
+A quadratura de Gauss-Legendre com três pontos fornece qual aproximação de $\int_1^7 f$? \textit{Usar 5 casas} {\it decimais.}
+
+*
+
+\textbf{Dica para}  {\bf verificação:} o resultado está entre 52 e 54. \textbf{\textit{Testando itálico e negrito juntos.}}
+
+EndQuestionText
+
+Variants
+1,97443 2,40622 5,27052 8,10226 11,34185 15,99721 16,98726 52,27869
+1,9886  2,42299 5,30033 8,14226 11,39205 16,06045 17,0531  52,51869
+2,00277 2,43975 5,33013 8,18226 11,44225 16,12369 17,11893 52,75869
+2,01693 2,45651 5,35993 8,22226 11,49245 16,18693 17,18477 52,99869
+2,0311  2,47327 5,38973 8,26226 11,54265 16,25017 17,2506  53,23869
+EndVariants
