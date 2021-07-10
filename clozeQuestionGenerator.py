@@ -293,14 +293,20 @@ questionText = re.sub("{\\\\it",     "<i>", questionText);
 
 replaceWith = np.array([], dtype = str);
 replacePos  = np.array([], dtype = int);
+
 # Bold
 bold = [m.start() for m in re.finditer('<b>', questionText)];
-replacePos  = np.append(replacePos,  bold);
-replaceWith = np.append(replaceWith, np.repeat("</b>", len(bold)));
+if len(bold) > 0:
+    replacePos  = np.append(replacePos,  bold);
+    replaceWith = np.append(replaceWith, np.repeat("</b>", len(bold)));
+# end if
+
 # Italics
 italics = [m.start() for m in re.finditer('<i>', questionText)];
-replacePos  = np.append(replacePos,  italics);
-replaceWith = np.append(replaceWith, np.repeat("</i>", len(italics)));
+if len(italics) > 0:
+    replacePos  = np.append(replacePos,  italics);
+    replaceWith = np.append(replaceWith, np.repeat("</i>", len(italics)));
+# end if
 
 replaceWith = replaceWith[np.argsort(replacePos)];
 replacePos  = np.sort(replacePos);
