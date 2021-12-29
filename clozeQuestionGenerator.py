@@ -308,8 +308,10 @@ if len(italics) > 0:
     replaceWith = np.append(replaceWith, np.repeat("</i>", len(italics)));
 # end if
 
-replaceWith = replaceWith[np.argsort(replacePos)];
-replacePos  = np.sort(replacePos);
+if len(replacePos) > 0:
+    replaceWith = replaceWith[np.argsort(replacePos)];
+    replacePos  = np.sort(replacePos);
+# end if
 
 for i in range(len(replacePos)-1, -1, -1):
     pos = questionText[replacePos[i]:len(questionText)].find("}");
